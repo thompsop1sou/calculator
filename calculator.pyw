@@ -316,7 +316,7 @@ def click_memrcl ():
 win = tk.Tk()
 win.title("Calculator")
 if platform.system() == "Windows":
-    win.icon("calculator.ico")
+    win.iconbitmap("calculator.ico")
 win.geometry("250x250")
 win.resizable(False, False)
 
@@ -342,7 +342,7 @@ for col_num in range(4):
 if platform.system() == "Linux":
     fnt = ("Dejavu Sans Mono", 12)
 else:
-    fnt = ("Consolas", 12)
+    fnt = ("Consolas", 14)
 
 # Adding Display
 
